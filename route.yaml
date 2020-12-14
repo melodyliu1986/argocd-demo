@@ -8,6 +8,6 @@ spec:
     targetPort: 80
   to:
     kind: Service
-    name: guestbook-ui
+    name: go-server
     weight: 100
   wildcardPolicy: None
