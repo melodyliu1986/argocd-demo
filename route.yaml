@@ -1,0 +1,13 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: argocd
+spec:
+  host: argocd-default.apps.dev-svc-4.6-121407.devcluster.openshift.com
+  port:
+    targetPort: 80
+  to:
+    kind: Service
+    name: guestbook-ui
+    weight: 100
+  wildcardPolicy: None
