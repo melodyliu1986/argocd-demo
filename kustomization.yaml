@@ -3,3 +3,5 @@ resources:
 - service.yaml
 - route.yaml
 - namespace.yaml
+
+namespace: prod
