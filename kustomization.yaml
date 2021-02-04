@@ -2,6 +2,5 @@ resources:
 - deployment.yaml
 - service.yaml
 - route.yaml
-- namespace.yaml
 
 namespace: argocd
