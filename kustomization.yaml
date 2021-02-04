@@ -4,4 +4,4 @@ resources:
 - route.yaml
 - namespace.yaml
 
-namespace: prod
+namespace: argocd
