@@ -14,7 +14,7 @@ spec:
         app: go-server
     spec:
       containers:
-      - image: quay.io/cbanavik/go-server:latest
+      - image: quay.io/cbanavik/go-server:latests
         name: go-server
         ports:
         - containerPort: 8080
