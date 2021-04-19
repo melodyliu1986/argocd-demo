@@ -3,8 +3,7 @@ kind: Deployment
 metadata:
   name: go-server
 spec:
-  replicas: 2
-  revisionHistoryLimit: 3
+  replicas: 1
   selector:
     matchLabels:
       app: go-server
