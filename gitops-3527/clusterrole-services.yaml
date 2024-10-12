@@ -1,0 +1,14 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: "2024-10-12T03:17:24Z"
+  name: services-cluster-role
+  resourceVersion: "75361"
+  uid: 66d294e8-c86e-45de-af32-c975f9f5b4dd
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - services
+  verbs:
+  - '*'

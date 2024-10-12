@@ -1,0 +1,15 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  creationTimestamp: "2024-10-12T03:41:30Z"
+  name: manage-deployments-global
+  resourceVersion: "80080"
+  uid: 040ffb9a-64a3-4f63-b79e-bb8ca4b621c2
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: deployments-cluster-role
+subjects:
+- kind: ServiceAccount
+  name: openshift-gitops-argocd-application-controller
+  namespace: openshift-gitops
